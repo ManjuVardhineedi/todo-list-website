@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Encyclopedia</title>
+    
+    <!-- Link to Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Wiki Encyclopedia</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Search Encyclopedia</h2>
+        <input type="text" id="searchQuery" placeholder="Search for articles..." />
+        <button onclick="searchWiki()">Search</button>
+
+        <div id="wikiResults">
+            <!-- Search results will be displayed here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>Wiki Encyclopedia - Created by Manju</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

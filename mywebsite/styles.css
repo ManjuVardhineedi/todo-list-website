@@ -1,0 +1,115 @@
+ /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1b2a;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x900/?coding,technology') center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Typing Effect for Name */
+.typing-effect {
+    font-size: 42px;
+    font-weight: bold;
+    color: #ffcc00;
+    border-right: 4px solid #ffcc00;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    display: inline-block;
+    animation: typing 3s steps(20, end) infinite alternate, blink 0.8s infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 0;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Section Styles */
+section {
+    padding: 80px;
+    margin: 50px auto;
+    width: 85%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    backdrop-filter: blur(8px);
+    text-align: center;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #ffcc00;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 18px;
+    color: #ddd;
+}
+
+/* Footer Styles */
+footer {
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url('https://source.unsplash.com/1600x400/?data,AI,cybersecurity') center/cover;
+    color: white;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    border-top: 3px solid #ffcc00;
+}
